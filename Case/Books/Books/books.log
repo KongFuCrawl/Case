@@ -1,0 +1,83 @@
+2025-10-29 21:30:32 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: Books)
+2025-10-29 21:30:32 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.0.1',
+ 'libxml2': '2.14.5',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.13.3 (main, Aug 14 2025, 11:53:40) [GCC 14.2.0]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.2 5 Aug 2025)',
+ 'cryptography': '45.0.7',
+ 'Platform': 'Linux-6.14.0-34-generic-x86_64-with-glibc2.41'}
+2025-10-29 21:30:32 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-10-29 21:30:32 [scrapy.extensions.telnet] INFO: Telnet Password: 6058a71ec4abf99f
+2025-10-29 21:30:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2025-10-29 21:30:32 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Books',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'COOKIES_ENABLED': False,
+ 'DOWNLOAD_DELAY': 3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'books.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'Books.spiders',
+ 'SPIDER_MODULES': ['Books.spiders']}
+2025-10-29 21:30:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-10-29 21:30:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-10-29 21:30:32 [scrapy.middleware] INFO: Enabled item pipelines:
+['Books.pipelines.BooksPipeline']
+2025-10-29 21:30:32 [scrapy.core.engine] INFO: Spider opened
+2025-10-29 21:30:32 [py.warnings] WARNING: /home/zbc/PyCharmMiscProject/.venv/lib/python3.13/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: Books.spiders.books2.BooksSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-10-29 21:30:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-10-29 21:30:32 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-10-29 21:30:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-10-29 21:30:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1212,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 22394,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'elapsed_time_seconds': 12.75619,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 10, 29, 13, 30, 44, 971915, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 205244,
+ 'httpcompression/response_count': 4,
+ 'item_scraped_count': 80,
+ 'items_per_minute': 400.0,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 3832750080,
+ 'memusage/startup': 3832750080,
+ 'response_received_count': 4,
+ 'responses_per_minute': 20.0,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2025, 10, 29, 13, 30, 32, 215725, tzinfo=datetime.timezone.utc)}
+2025-10-29 21:30:44 [scrapy.core.engine] INFO: Spider closed (finished)

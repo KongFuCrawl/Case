@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Blued",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.soft.blued",
+    "package": "com.soft.blued"
+  },
+  {
+    "name": "组CP-语音交友",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=me.ddkj.cp",
+    "package": "me.ddkj.cp"
+  },
+  {
+    "name": "算爱社",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.suanaiyanxishe.loveandroid",
+    "package": "com.suanaiyanxishe.loveandroid"
+  },
+  {
+    "name": "豆瓣",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.douban.frodo",
+    "package": "com.douban.frodo"
+  },
+  {
+    "name": "小恩爱-情侣必备",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.xiaoenai.app",
+    "package": "com.xiaoenai.app"
+  },
+  {
+    "name": "同桌派对-原同桌游戏",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.tongzhuo.tongzhuogame",
+    "package": "com.tongzhuo.tongzhuogame"
+  },
+  {
+    "name": "堆糖",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.duitang.main",
+    "package": "com.duitang.main"
+  },
+  {
+    "name": "腾讯先锋",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.tencent.gamereva",
+    "package": "com.tencent.gamereva"
+  },
+  {
+    "name": "掌上飞车",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.tencent.gamehelper.speed",
+    "package": "com.tencent.gamehelper.speed"
+  },
+  {
+    "name": "纹身大咖",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.weimi.mzg.ws",
+    "package": "com.weimi.mzg.ws"
+  },
+  {
+    "name": "微博轻享版-原微博国际版",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=com.weico.international",
+    "package": "com.weico.international"
+  },
+  {
+    "name": "Soul",
+    "type": "聊天社交",
+    "link": "https://app.mi.com/details?id=cn.soulapp.android",
+    "package": "cn.soulapp.android"
+  }
+]
